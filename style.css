@@ -1,0 +1,243 @@
+/* ========= */
+/* Reuseable */
+/* ========= */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+h1, h2, h3, h4{
+    font-weight: 800;
+    color: rgb(47, 47, 47);
+}
+p{
+    color: rgba(47, 47, 47, 0.700);
+    font-size: 15px;
+    line-height: 28px;
+}
+
+.btn{
+    padding: 15px 30px;
+    color: white;
+    border: none;
+    background: rgb(47, 47, 47);
+}
+
+/* ========= */
+/* Home Page */
+/* ========= */
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.left-side{
+    position: relative;
+    left: -10%;
+    
+}
+
+.left-side h2{
+    color: rgb(8, 241, 58);
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+.nav{
+    margin-top: 40px;
+}
+
+.nav ul li{
+    list-style-type: none;
+    margin-top: 9px;
+}
+
+.nav ul li a{
+    color: rgb(236, 240, 9);
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.copyright{
+    margin-top: 50px;
+}
+
+.copyright p{
+    font-style: italic;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+
+.right-side{
+    background: rgb(113, 136, 240);
+    height: 100%;
+    width: 100%;
+}
+
+.container2{
+    width: 70%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    align-items: center;
+}
+
+.profileImage{
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+
+.profileImage img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.profile-right{
+    position: relative;
+    left: -65px;
+}
+
+.profile-right h1{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.profile-right p{
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+.social-icons ul li{
+    display: inline-block;
+    padding-right: 10px;
+}
+.social-icons ul li i{
+    font-size: 20px;
+}
+
+/* ========== */
+/* About Page */
+/* ========== */
+
+.about-right{
+    height: 100%;
+    width: 100%;
+    background: rgb(246, 246, 246);
+}
+
+.cover-image{
+    width: 70%;
+    height: 500px;
+    margin: 100px auto 50px auto;
+}
+.cover-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-details{
+    width: 70%;
+    display: grid;
+    grid-template-columns: auto 250px 250px;
+    grid-gap: 20px;
+    margin: auto;
+}
+
+.about-details-left h2{
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+.about-details-left p{
+    margin-bottom: 35px;
+}
+
+.about-details-right1{
+    margin-top: 50px;
+    position: relative;
+    left: 50%;
+}
+.about-details-right2{
+    margin-top: 50px;
+    position: relative;
+    left: -10%;
+}
+
+
+/* ============== */
+/* Portfolio Page */
+/* ============== */
+
+.portfolio-container{
+    width: 70%;
+    margin: auto;
+}
+
+.portfolio-container p{
+    display: inline-block;
+    background: rgb(230, 230, 230);
+    padding: 5px 15px;
+    text-transform: uppercase;
+    color: rgb(47, 47, 47);
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+.head-menu h2{
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.head-menu{
+    display: flex;
+    justify-content: space-between;
+}
+.menu ul{
+    margin-top: 20px;
+}
+
+.right-side .menu ul li{
+    display: inline-block;
+}
+.right-side .menu ul li a{
+    text-decoration: none;
+    color: rgba(47, 47, 47, 0.700);
+    margin-left: 15px;
+    font-weight: 500;
+}
+
+.images{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+    margin-top: 70px;
+}
+
+.image-container{
+    height: 250px;
+    width: 100%;
+}
+.image-container img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
