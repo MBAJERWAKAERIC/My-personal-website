@@ -60,7 +60,7 @@ p{
 }
 
 .nav ul li a{
-    color: rgb(236, 240, 9);
+    color: blue;
     text-decoration: none;
     letter-spacing: 1px;
     font-size: 30px;
@@ -241,3 +241,40 @@ p{
     width: 100%;
     object-fit: cover;
 }
+
+/* Center website */
+.main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+  
+  .row {
+    margin: 8px;
+  }
+  
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33%;
+  }
+  
+  /* Clear floats after rows */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color:greenyellow;
+    padding: 10PX 10PX 10PX 10px;
+  }
+  
+  
