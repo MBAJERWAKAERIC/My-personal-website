@@ -7,11 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/fontawesome.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css"> 
     <title>MBAJE RWAKA ERIC</title>
 </head>
 
-<body  background="COVER.PNG">
+<body>
     <div class="container">
         <div class="left-side">
             <!-- Left Side -->
@@ -20,8 +20,8 @@
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="gallary.html">gallary</a></li>
+                    <li><a href="skills.html">skills</a></li>
                     <li><a href="contact.html">Contact</a></li>
                     <li><a href="visitors.html">visitors</a></li>
                 </ul>
@@ -30,3 +30,78 @@
                 <p>© 2021 <B class="U"></B><br>Created by <b>MBAJE ERIC</b></p>
             </div>
         </div>
+
+
+        <div class="right-side">
+            <!-- Right Side -->
+
+            <style>
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                text-size: 300px}
+            input[type=text], select, textarea {
+              width: 100%;
+              padding: 12px;
+              border: 1px solid #ccc;
+              border-radius: 4px;
+              box-sizing: border-box;
+              margin-top: 6px;
+              margin-bottom: 16px;
+              resize: vertical;
+            }
+            
+            input[type=submit] {
+              background-color: #4CAF50;
+              color: white;
+              padding: 12px 20px;
+              border: none;
+              border-radius: 4px;
+              cursor: pointer;
+            }
+            
+            input[type=submit]:hover {
+              background-color: #45a049;
+            }
+            
+            .container {
+              border-radius: 5px;
+              /*background-color: #f2f2f2;*/
+              padding: 20px;
+            }
+            </style>
+            </head>
+            <body>
+            
+            <h1>visitors form</h1>
+            
+            <div class="container">
+              <form action="/action_page.php">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                  <option value="australia">Australia</option>
+                  <option value="canada">Canada</option>
+                  <option value="usa">USA</option>
+                  <option value="Uganda">Uganda</option>
+                  <option value="R.D.C">R.D.C</option>
+                  <option value="Tanzania">Tanzania</option>
+                </select>
+            
+                <label for="subject">Message</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+            
+                <input type="submit" value="Submit">
+              </form>
+            </div>
+            
+        </div>
+    </div>
+
+</body>
+
+</html>
